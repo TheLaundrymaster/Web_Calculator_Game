@@ -1,0 +1,2 @@
+Within this folder are the files necessary to play the Calculator Challenge.
+By running the index.html within the Pages folder and you will be sent to the opening page.

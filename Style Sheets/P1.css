@@ -1,0 +1,15 @@
+button{
+    width: 45px;
+    height: 45px;
+}
+body{
+    background-image: url("https://inscribemag.com/wp-content/uploads/chalkboard-texture-8.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+
+}
+p{
+    color: white;
+}

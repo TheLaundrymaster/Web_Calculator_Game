@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Congratulations!!!</title>
+    <style>
+        #celebrate_button{
+           text-align: center;
+
+        }
+        #end_button{
+
+            background-color: white;
+            color: black;
+            border: 2px solid yellow;
+
+        }
+        #end_button:hover{
+            background-color: #4CAF50;
+            color: white;
+        }
+        #balloon{
+            float: left;
+            position: relative;
+
+
+
+        }
+        #balloon2{
+            top: 400px;
+            float: right;
+            position: relative;
+
+        }
+        #rail1{
+            left: 0;
+
+            width: 75px;
+            height: 100%;
+            position: absolute;
+        }
+        #rail2{
+           right: 0;
+
+            width: 75px;
+            height: 100%;
+            position: absolute;
+        }
+        #center{
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+
+<div id="celebrate_button">
+    <button id="end_button" onclick="celebrate()">CELEBRATE?</button>
+</div>
+<div id="rail1" >
+    <img src="../Images/Balloons.png" height="15%" width="75%" id="balloon" style="display: none">
+</div>
+
+
+<div id="rail2">
+    <img src="../Images/Balloons.png" height="15%" width="75%" id="balloon2" style="display: none">
+
+</div>
+
+<p id="message" style="display: none;text-align: center" >
+    <b><em>Congratulations on getting through the game! <br>
+        Hope you enjoyed it!</em></b>
+
+</p>
+<br>
+<br>
+<br>
+<br>
+<p  align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3GwjfUFyY6M?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
+<div id = "center">
+    <a href="index.html"><button id="homeButton">Done Celebrating</button></a>
+</div>
+
+
+<script  src="../JS/end.js"></script>
+</body>
+</html>
